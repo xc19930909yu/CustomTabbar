@@ -121,7 +121,8 @@ static WGTabBarController *tabbarCtl;
 //    NSInteger num =  SharedMessage.unreadSessionNum;
  //   if(num>0||vCoinBadage||tongHuaBadge||yuyueBadge)
         //显示红点
-        [self.wgTabBarView setBadge:-1 index:2];
+       // [self.wgTabBarView setBadge:-1 index:2];
+      [self.wgTabBarView setBadge:99 index:2];
 //    else
 //        //取消红点
 //        [self.wgTabBarView setBadge:-99 index:2];

@@ -44,8 +44,22 @@
     }
     self.hidden = NO;
     CGFloat widths = 7;
+    CGFloat heights = 7;
+    /// 加入计算
+    NSString  *titles = [NSString stringWithFormat:@"%ld", badge];
+    CGFloat Newwidth = [titles widthWithConstainedheight:7 font:[UIFont boldSystemFontOfSize:10]];
+    if (Newwidth > 7) {
+        /// 第二次计算
+        CGFloat secondWidth = [titles widthWithConstainedheight:10 font:[UIFont boldSystemFontOfSize:10]];
+        widths = secondWidth;
+        heights = 10;
+    }else{
+        widths = 7;
+        heights = 7;
+    }
     CGFloat swith = KScreenW/_itemCount;
-    self.frame = CGRectMake(swith/2+8+(self.tag-10086)*swith, 5+Height_TabBarBottomBadge, widths, 7);
+    //self.frame = CGRectMake(swith/2+8+(self.tag-10086)*swith, 5+Height_TabBarBottomBadge, widths, 7);
+    self.frame = CGRectMake(swith/2+8+(self.tag-10086)*swith, 5 + Height_TabBarBottomBadge, widths, heights);
     self.text = badgeStr;
 }
 

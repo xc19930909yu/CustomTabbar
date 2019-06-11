@@ -43,6 +43,7 @@
 		0247B76E226C0D67007A2CDA /* VLOVETPM_xiaoxi_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0247B756226C0D66007A2CDA /* VLOVETPM_xiaoxi_off@2x.png */; };
 		0247B76F226C0D67007A2CDA /* VLOVETPM_xiaoxi_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0247B757226C0D66007A2CDA /* VLOVETPM_xiaoxi_off@3x.png */; };
 		2F3DCBA5CC7BCA6E26A97ACE /* libPods-SuperTabbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 215F34E9E64B6ADC01B692C0 /* libPods-SuperTabbar.a */; };
+		C618036022AFBD7F007486A9 /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C618035F22AFBD7F007486A9 /* NSString+extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,8 @@
 		0247B757226C0D66007A2CDA /* VLOVETPM_xiaoxi_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VLOVETPM_xiaoxi_off@3x.png"; sourceTree = "<group>"; };
 		215F34E9E64B6ADC01B692C0 /* libPods-SuperTabbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperTabbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6928D733F4A8BE78639CB47 /* Pods-SuperTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperTabbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperTabbar/Pods-SuperTabbar.release.xcconfig"; sourceTree = "<group>"; };
+		C618035E22AFBD7F007486A9 /* NSString+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
+		C618035F22AFBD7F007486A9 /* NSString+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
 		F711681DE08A34E167993AB8 /* Pods-SuperTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperTabbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperTabbar/Pods-SuperTabbar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +147,8 @@
 				0247B71A226BFCDE007A2CDA /* AppDelegate.m */,
 				0247B71C226BFCDE007A2CDA /* ViewController.h */,
 				0247B71D226BFCDF007A2CDA /* ViewController.m */,
+				C618035E22AFBD7F007486A9 /* NSString+extension.h */,
+				C618035F22AFBD7F007486A9 /* NSString+extension.m */,
 				0247B71F226BFCDF007A2CDA /* Main.storyboard */,
 				0247B722226BFCE8007A2CDA /* Assets.xcassets */,
 				0247B724226BFCE8007A2CDA /* LaunchScreen.storyboard */,
@@ -324,6 +329,7 @@
 				0247B736226BFD45007A2CDA /* WGTabBarView.m in Sources */,
 				0247B737226BFD45007A2CDA /* WGTabBarBadge.m in Sources */,
 				0247B735226BFD45007A2CDA /* WGTabBarItem.m in Sources */,
+				C618036022AFBD7F007486A9 /* NSString+extension.m in Sources */,
 				0247B73B226C083A007A2CDA /* WGTabBarController.m in Sources */,
 				0247B71B226BFCDE007A2CDA /* AppDelegate.m in Sources */,
 			);
@@ -469,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CPPSY6T4JX;
+				DEVELOPMENT_TEAM = 2832LWTN33;
 				GCC_PREFIX_HEADER = SuperTabbar/PrefixHeader.pch;
 				INFOPLIST_FILE = SuperTabbar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -489,7 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CPPSY6T4JX;
+				DEVELOPMENT_TEAM = 2832LWTN33;
 				GCC_PREFIX_HEADER = SuperTabbar/PrefixHeader.pch;
 				INFOPLIST_FILE = SuperTabbar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

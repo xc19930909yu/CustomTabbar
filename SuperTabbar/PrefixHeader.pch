@@ -23,4 +23,6 @@
 #define Height_TabBarBottomBadge ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 10 : 0.0)
 #define Height_StatusBar ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 44.0 : 20.0)
 
+#import "NSString+extension.h"
+
 #endif /* PrefixHeader_pch */
