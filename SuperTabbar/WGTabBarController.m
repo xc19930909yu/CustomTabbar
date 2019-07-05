@@ -127,6 +127,8 @@ static WGTabBarController *tabbarCtl;
 //    else
 //        //取消红点
 //        [self.wgTabBarView setBadge:-99 index:2];
+    
+    // git暂存区
 }
 
 
