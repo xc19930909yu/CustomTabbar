@@ -105,13 +105,13 @@ static WGTabBarController *tabbarCtl;
 
 - (void)refreshSessionBadge{
     //    NSInteger num1 = SharedMessage.myVcoinMessageNum + SharedMessage.commentMessageNum + SharedMessage.callRecordMessageNum + SharedMessage.unreadSessionNum + SharedMessage.reserveMessageNum;
-    BOOL vCoinBadage=false;
-    BOOL tongHuaBadge=false;
-    BOOL yuyueBadge=false;
+    //BOOL vCoinBadage=false;
+    //BOOL tongHuaBadge=false;
+    //BOOL yuyueBadge=false;
 
-    NSUserDefaults *userM = [NSUserDefaults standardUserDefaults];
-    NSDictionary *dic = [userM objectForKey:@"YXModelBadge"];
-    NSString *userId = dic[@"userId"];
+    //NSUserDefaults *userM = [NSUserDefaults standardUserDefaults];
+    //NSDictionary *dic = [userM objectForKey:@"YXModelBadge"];
+    //NSString *userId = dic[@"userId"];
 //    if (userId && [[NSString stringWithFormat:@"%@",ShareManager.VLOVEDXM_userId] isEqualToString:userId]) {
 //        vCoinBadage = [dic[@"vcoinflag"] boolValue];
 //        tongHuaBadge = [dic[@"tonghuaflag"] boolValue];
@@ -122,7 +122,8 @@ static WGTabBarController *tabbarCtl;
  //   if(num>0||vCoinBadage||tongHuaBadge||yuyueBadge)
         //显示红点
        // [self.wgTabBarView setBadge:-1 index:2];
-      [self.wgTabBarView setBadge:99 index:2];
+    
+    [self.wgTabBarView setBadge:99 index:2];
 //    else
 //        //取消红点
 //        [self.wgTabBarView setBadge:-99 index:2];
