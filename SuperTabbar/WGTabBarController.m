@@ -131,6 +131,8 @@ static WGTabBarController *tabbarCtl;
     // git暂存区
     // 新加一行
     //  撤销暂存区
+    
+    // 增加一个新的分区 dev
 }
 
 
